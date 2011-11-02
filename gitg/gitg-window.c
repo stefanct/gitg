@@ -1545,7 +1545,7 @@ fill_branches_combo (GitgWindow *window)
 					/* Add remote icon */
 					gtk_tree_store_set (store,
 					                   &parent,
-					                   COLUMN_BRANCHES_ICON, g_strdup (GTK_STOCK_NETWORK),
+					                   COLUMN_BRANCHES_ICON, GTK_STOCK_NETWORK,
 					                   -1);
 				}
 			}

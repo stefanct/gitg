@@ -1439,6 +1439,7 @@ load_current_ref (GitgRepository *self)
 
 	if (!retval || !out)
 	{
+		g_free (argv);
 		g_strfreev (out);
 		return NULL;
 	}
@@ -1448,6 +1449,7 @@ load_current_ref (GitgRepository *self)
 		ret = g_strdup (*out);
 	}
 
+	g_free (argv);
 	g_strfreev (out);
 	return ret;
 }

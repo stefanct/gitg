@@ -203,6 +203,8 @@ parse_lines (GitgLineParser *stream,
 	const gchar *line_end;
 	end = ptr + size;
 
+	free_lines (stream);
+
 	while ((newline = find_newline (ptr, end, &line_end)))
 	{
 		if (stream->priv->preserve_line_endings)
