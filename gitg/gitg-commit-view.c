@@ -25,6 +25,7 @@
 #include <gtksourceview/gtksourcelanguagemanager.h>
 #include <gtksourceview/gtksourcemarkattributes.h>
 #include <gtksourceview/gtksourcestyleschememanager.h>
+#include <gtksourceview/gtksourcestylescheme.h>
 #include <gtksourceview/gtksourcegutter.h>
 #include <gtksourceview/gtksourcegutterrendererpixbuf.h>
 #include <glib/gi18n.h>
